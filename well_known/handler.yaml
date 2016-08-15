@@ -1,0 +1,3 @@
+handlers:
+- url: /.well-known/.*
+  script: well_known.handler.app

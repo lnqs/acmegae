@@ -1,0 +1,4 @@
+acme==0.8.1
+docopt==0.6.2
+gcloud==0.18.1
+pyOpenSSL==16.0.0
