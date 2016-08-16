@@ -33,8 +33,8 @@ __version__ = '1.0'
 
 logging.basicConfig(level=logging.INFO)
 
-DIRECTORY_URL = 'https://acme-staging.api.letsencrypt.org/directory'
-# DIRECTORY_URL = 'https://acme-v01.api.letsencrypt.org/directory'
+# DIRECTORY_URL = 'https://acme-staging.api.letsencrypt.org/directory'
+DIRECTORY_URL = 'https://acme-v01.api.letsencrypt.org/directory'
 
 
 class ACMEClient(object):
